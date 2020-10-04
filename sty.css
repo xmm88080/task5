@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,ul,p,h1,h2,form,input,td,tr{
+
+    font-family: "微软雅黑";
+    font-size: 18px;
+
+}/*英文网站字体一般为Arial*/
+
+img{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+ li{
+    list-style: none;
+}
+a{
+    display: block;
+}
+body{
+    background-color: #dedede;
+}
+
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+.clearfix{
+    *zoom:1;
+}
+
+#header{
+   
+   height: 40px;
+    background: url(img/head_back.jpg) repeat-x;
+}
+.body{
+  
+    width: 100%;
+}
+#nav{
+   
+    width: 1400px;
+    height: 40px;
+    margin: auto;
+}
+#nav a{
+    
+    color: #ffffff;
+}
+#nav a:hover{
+    color: antiquewhite;
+}
+#logo{
+    float: left;
+    height: 40px;
+    width: 50px;
+}
+#ri{
+    float:right;
+    height: 40px;
+}
+#nav li{
+    float: left;
+    font-size: 16px;
+    padding-right: 10px;
+    margin-right: 14px;
+    padding-top: 12px;
+  
+
+}
+
+h1{
+    line-height: 50px;
+}
+
+h2{
+    line-height: 50px;
+   
+    color: #6b6e73;
+}
+.text{
+    
+  margin-top: 20px;
+  margin-right: 400px;
+   margin-left: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    border: 1px solid #cbcbcb;
+    box-shadow: 1px 1px 1px 1px  #848484;
+}
+.text p{
+    font-size: 18px;
+    line-height:30px ;
+    font-weight: 400;
+    text-indent: 2em;
+}
+h4{
+    color: #6b6e73;
+    line-height: 50px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.text a{
+    display: inline;
+}
+
+.text img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.im {
+    margin-right: 400px;
+    margin-left: 30px;
+    margin-top: 20px;
+     padding-top: 30px;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom: 30px;
+     background-color: #ffffff;
+     border: 1px solid #cbcbcb;
+     box-shadow: 1px 1px 1px 1px  #848484;
+    
+}
+.im   .p_img{
+    float: left;
+    text-align: center;
+    
+width: 250px;
+height: 250px;
+border: 1px solid #cbcbcb;
+    margin-top: 20px;
+    margin-left: 3em;
+}
+.p_img img{
+    width:85% ;
+    height: auto;
+}
+.p_img p{
+    font-size: 20px;
+    line-height: 60px;
+}
+.text_end{
+    margin-right: 400px;
+    margin-left: 30px;
+    margin-top: 20px;
+     padding-top: 30px;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom: 30px;
+     background-color: #ffffff;
+     border: 1px solid #cbcbcb;
+     box-shadow: 1px 1px 1px 1px  #848484;
+}
+.text_end ol{
+    padding: 20px 20px 20px 20px;
+}
+.text_end table{
+    border-spacing: 0px;
+   
+    width: 100%;
+}
+.text_end td,th{
+    border: 1px solid #848484 ;
+    padding: 3px;
+}
+.text_end th{
+    background-color: #333333;
+    color:#ffffff;
+    font-style: normal;
+}
+#all{
+    background-color:#cccccc;
+}
+
+.celan{
+    position: absolute;
+   top:60px;
+   right: 0;
+    width: 300px;
+  
+    margin-top: 0px;
+    margin-right: 30px;
+     padding-top: 30px;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom: 30px;
+     background-color: #ffffff;
+     border: 1px solid #cbcbcb;
+     box-shadow: 1px 1px 1px 1px  #848484;
+}
+input{
+    font-size: 13px;
+}
+.topic {
+    margin-left: 3px;
+
+    border-left: 3px solid #cbcbcb;
+    padding-left: 2px;
+    padding-top: 2px;
+    height: 30px;
+   
+}
+.topic p{
+    text-indent: 7px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.tishi{
+    width: 100px;
+}
+.celan td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+ .tishi{
+    float: right;
+    text-align: right;
+}
+.celan table{
+    border-spacing: 10px;
+}
+
+.celan .zhu{
+    color:#9c9c9a;
+    padding-bottom: 5px;
+}
+
+#miao{
+    width: 150px;
+}
+
+#sub{
+    background-color: #3355d0;
+    color: #ffffff;
+   border: 0;
+   
+  
+}
+#n_sub{
+    background-color: #3355d0;
+    text-align: center;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.footer{
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+}
